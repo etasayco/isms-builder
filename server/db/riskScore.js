@@ -8,7 +8,7 @@ function clamp(v) { return Math.min(5, Math.max(1, parseInt(v) || 1)) }
 function riskLevel(score) {
   if (score <= 4)  return 'low'
   if (score <= 9)  return 'medium'
-  if (score <= 14) return 'high'
+  if (score <= 14) return 'high' //Cambiar "Riesgo Alto" hasta 19
   return 'critical'
 }
 
