@@ -27,6 +27,7 @@
     { code: 'nl', name: 'Nederlands', flag: '🇳🇱', locale: 'nl-NL', docSuffix: '.nl', aiName: 'Dutch',     browserPrefix: 'nl', demoLabel: 'Demogegevens in het Nederlands', msgIndex: 3, status: 'complete', listed: true },
     { code: 'hu', name: 'Magyar',     flag: '🇭🇺', locale: 'hu-HU', docSuffix: '.hu', aiName: 'Hungarian', browserPrefix: 'hu', demoLabel: 'Demóadatok magyarul', msgIndex: 4, status: 'complete', listed: true },
     { code: 'et', name: 'Eesti',      flag: '🇪🇪', locale: 'et-EE', docSuffix: '.et', aiName: 'Estonian',  browserPrefix: 'et', demoLabel: 'Demoandmed eesti keeles', msgIndex: 5, status: 'complete', listed: true  },
+    { code: 'es', name: 'Spanish',    flag: '🇪🇸', locale: 'es-ES', docSuffix: '.es', aiName: 'Spanish',  browserPrefix: 'es', demoLabel: 'Demo data en español', msgIndex: 6, status: 'complete', listed: true  },
   ]
 
   const byCode = Object.fromEntries(LIST.map(l => [l.code, l]))
