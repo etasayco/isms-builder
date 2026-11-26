@@ -9,7 +9,7 @@
 //   3. sonst Englisch.
 // Unbekannte Texte (z. B. Systemfehler, `e.message`) bleiben unverändert.
 //
-// Eintrag: [en, de, fr, nl, hu]; {name} sind Platzhalter, die beim Übersetzen erhalten bleiben.
+// Eintrag: [en, de, fr, nl, hu, et, es]; {name} sind Platzhalter, die beim Übersetzen erhalten bleiben.
 'use strict'
 
 const reg = require('./languages')
