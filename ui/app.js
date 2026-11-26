@@ -6453,15 +6453,19 @@ const ROLES_LIST = [
 ]
 
 // Organisational functions (independent of RBAC rank)
+// Se agregaron los roles de CDO (Chief Data Office) y CAIO (Chief AI Office)
 const FUNCTIONS_LIST = [
   { id: 'ciso',         get label() { return t('fn_ciso') },        icon: 'ph-shield-warning' },
   { id: 'dso',          get label() { return t('fn_dso') },         icon: 'ph-lock-key' },
+  { id: 'cdo',          get label() { return t('fn_cdo') },         icon: 'ph-database' },
+  { id: 'caio',         get label() { return t('fn_caio') },        icon: 'ph-robot' },
   { id: 'qmb',          get label() { return t('fn_qmb') },         icon: 'ph-seal-check' },
   { id: 'bcm_manager',  get label() { return t('fn_bcmManager') },  icon: 'ph-lifebuoy' },
   { id: 'dept_head',    get label() { return t('fn_deptHead') },    icon: 'ph-users-three' },
   { id: 'auditor',      get label() { return t('fn_auditor') },     icon: 'ph-magnifying-glass' },
   { id: 'admin_notify', get label() { return t('fn_adminNotify') }, icon: 'ph-bell' },
 ]
+
 
 // Hilfsfunktion: Funktions-Label aus ID
 function fnLabel(id) {
