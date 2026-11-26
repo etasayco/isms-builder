@@ -10410,7 +10410,7 @@ async function switchRiskTab(tab) {
 function riskRatingOf(p, i) {
   if (!p || !i) return null
   const score = p * i
-  const level = score <= 4 ? 'low' : score <= 9 ? 'medium' : score <= 14 ? 'high' : 'critical'
+  const level = score <= 4 ? 'low' : score <= 9 ? 'medium' : score <= 14 ? 'high' : 'critical'  // Se modificó el score de high de 14 a 19
   return { p, i, score, level }
 }
 
@@ -10565,7 +10565,7 @@ async function renderRiskHeatmap(el) {
     const s = p * i
     if (s <= 4)  return 'hm-low'
     if (s <= 9)  return 'hm-medium'
-    if (s <= 14) return 'hm-high'
+    if (s <= 19) return 'hm-high' // Se modificó el valor para el nivel high de 14 a 19
     return 'hm-critical'
   }
 
